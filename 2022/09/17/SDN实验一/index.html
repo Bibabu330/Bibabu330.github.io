@@ -20,19 +20,29 @@
     var CONFIG = {"hostname":"example.com","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":true,"style":null},"back2top":{"enable":true,"sidebar":true,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.">
+  <meta name="description" content="实验1：SDN拓扑实践">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="http://example.com/2022/09/17/hello-world/index.html">
+<meta property="og:title" content="软件定义网络第二次作业">
+<meta property="og:url" content="http://example.com/2022/09/17/SDN%E5%AE%9E%E9%AA%8C%E4%B8%80/index.html">
 <meta property="og:site_name" content="Jinfeng Pan">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.">
+<meta property="og:description" content="实验1：SDN拓扑实践">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2022-09-17T06:46:48.355Z">
-<meta property="article:modified_time" content="2022-09-17T10:03:27.135Z">
+<meta property="og:image" content="http://example.com/images/sdn%E5%AE%9E%E9%AA%8C%E4%B8%801.png">
+<meta property="og:image" content="http://example.com/images/sdn%E5%AE%9E%E9%AA%8C%E4%B8%802.png">
+<meta property="og:image" content="http://example.com/images/sdn%E5%AE%9E%E9%AA%8C%E4%B8%803.png">
+<meta property="og:image" content="http://example.com/images/sdn%E5%AE%9E%E9%AA%8C%E4%B8%804.png">
+<meta property="og:image" content="http://example.com/images/sdn%E5%AE%9E%E9%AA%8C%E4%B8%805.png">
+<meta property="og:image" content="http://example.com/images/sdn%E5%AE%9E%E9%AA%8C%E4%B8%806.jpg">
+<meta property="og:image" content="http://example.com/images/sdn%E5%AE%9E%E9%AA%8C%E4%B8%807.jpg">
+<meta property="og:image" content="http://example.com/images/sdn%E5%AE%9E%E9%AA%8C%E4%B8%808.jpg">
+<meta property="article:published_time" content="2022-09-17T10:09:00.614Z">
+<meta property="article:modified_time" content="2022-09-17T10:22:57.443Z">
 <meta property="article:author" content="Panpan">
+<meta property="article:tag" content="SDN">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://example.com/images/sdn%E5%AE%9E%E9%AA%8C%E4%B8%801.png">
 
-<link rel="canonical" href="http://example.com/2022/09/17/hello-world/">
+<link rel="canonical" href="http://example.com/2022/09/17/SDN%E5%AE%9E%E9%AA%8C%E4%B8%80/">
 
 
 <script id="page-configurations">
@@ -45,7 +55,7 @@
   };
 </script>
 
-  <title>Hello World | Jinfeng Pan</title>
+  <title>软件定义网络第二次作业 | Jinfeng Pan</title>
   
 
 
@@ -164,7 +174,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2022/09/17/hello-world/">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2022/09/17/SDN%E5%AE%9E%E9%AA%8C%E4%B8%80/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/%E5%B8%85%E5%B0%8F%E4%BC%99.jpg">
@@ -177,7 +187,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          Hello World
+          软件定义网络第二次作业
         </h1>
 
         <div class="post-meta">
@@ -188,7 +198,16 @@
               <span class="post-meta-item-text">发表于</span>
               
 
-              <time title="创建时间：2022-09-17 14:46:48 / 修改时间：18:03:27" itemprop="dateCreated datePublished" datetime="2022-09-17T14:46:48+08:00">2022-09-17</time>
+              <time title="创建时间：2022-09-17 18:09:00 / 修改时间：18:22:57" itemprop="dateCreated datePublished" datetime="2022-09-17T18:09:00+08:00">2022-09-17</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/SDN/" itemprop="url" rel="index"><span itemprop="name">SDN</span></a>
+                </span>
             </span>
 
           <br>
@@ -197,7 +216,7 @@
                 <i class="far fa-file-word"></i>
               </span>
                 <span class="post-meta-item-text">本文字数：</span>
-              <span>367</span>
+              <span>486</span>
             </span>
             <span class="post-meta-item" title="阅读时长">
               <span class="post-meta-item-icon">
@@ -216,21 +235,18 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+        <p>实验1：SDN拓扑实践</p>
 <span id="more"></span>
 
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+<h2 id="a-Mininet运行结果截图"><a href="#a-Mininet运行结果截图" class="headerlink" title="a) Mininet运行结果截图"></a>a) Mininet运行结果截图</h2><p><img src="/images/sdn%E5%AE%9E%E9%AA%8C%E4%B8%801.png"></p>
+<h2 id="b-2的执行结果截图"><a href="#b-2的执行结果截图" class="headerlink" title="b) 2的执行结果截图"></a>b) 2的执行结果截图</h2><h3 id="2-a-3台交换机，每个交换机连接1台主机，3台交换机连接成一条线"><a href="#2-a-3台交换机，每个交换机连接1台主机，3台交换机连接成一条线" class="headerlink" title="2-a 3台交换机，每个交换机连接1台主机，3台交换机连接成一条线"></a>2-a 3台交换机，每个交换机连接1台主机，3台交换机连接成一条线</h3><p><img src="/images/sdn%E5%AE%9E%E9%AA%8C%E4%B8%802.png"></p>
+<h3 id="2-b-3台主机，每个主机都连接到同1台交换机上"><a href="#2-b-3台主机，每个主机都连接到同1台交换机上" class="headerlink" title="2-b 3台主机，每个主机都连接到同1台交换机上"></a>2-b 3台主机，每个主机都连接到同1台交换机上</h3><p><img src="/images/sdn%E5%AE%9E%E9%AA%8C%E4%B8%803.png"></p>
+<h2 id="c-3修改过的-“学号-py”-代码、Mininet运行结果"><a href="#c-3修改过的-“学号-py”-代码、Mininet运行结果" class="headerlink" title="c) 3修改过的 “学号.py” 代码、Mininet运行结果"></a>c) 3修改过的 “学号.py” 代码、Mininet运行结果</h2><h3 id="3-a-修改过的-“学号-py”-代码"><a href="#3-a-修改过的-“学号-py”-代码" class="headerlink" title="3-a 修改过的 “学号.py” 代码"></a>3-a 修改过的 “学号.py” 代码</h3><p><img src="/images/sdn%E5%AE%9E%E9%AA%8C%E4%B8%804.png"></p>
+<h3 id="3-b-Mininet运行结果"><a href="#3-b-Mininet运行结果" class="headerlink" title="3-b Mininet运行结果"></a>3-b Mininet运行结果</h3><p><img src="/images/sdn%E5%AE%9E%E9%AA%8C%E4%B8%805.png"></p>
+<h2 id="进阶"><a href="#进阶" class="headerlink" title="进阶"></a>进阶</h2><h3 id="“学号-fattree-py”-代码"><a href="#“学号-fattree-py”-代码" class="headerlink" title="“学号_fattree.py” 代码"></a>“学号_fattree.py” 代码</h3><p><img src="/images/sdn%E5%AE%9E%E9%AA%8C%E4%B8%806.jpg"></p>
+<h3 id="执行结果"><a href="#执行结果" class="headerlink" title="执行结果"></a>执行结果</h3><p><img src="/images/sdn%E5%AE%9E%E9%AA%8C%E4%B8%807.jpg"></p>
+<p><img src="/images/sdn%E5%AE%9E%E9%AA%8C%E4%B8%808.jpg"></p>
+<h2 id="个人总结"><a href="#个人总结" class="headerlink" title="个人总结"></a>个人总结</h2><p>鉴于之前自己做实验都是边看指导书边做，并没有理解实验背后的原理，导致自己最后虽然实验做成功了，但也仅限于实验成功了，并没有其他的收获。所以这次自己在做实验之前先认真学习了mininet的基本操作指令包括对于mininet可视化工具生成拓扑、命令行生成特定拓扑、mininet交互界面管理SDN拓扑和使用python脚本构建SDN拓扑，在熟练掌握后，在开始进行实验，就会觉得实验进行的非常顺利，而且自己能够根据实验的具体情况对拓扑实时进行调整。通过在SDNLAB平台的实操训练，进阶部分更加考验对于利用python脚本构建自己想要的SDN拓扑。只有学会并且能够熟练使用这些基础工具，后面的实验才能够跟得上。加油加油！冲鸭！</p>
 
     </div>
 
@@ -239,6 +255,10 @@
     
 
       <footer class="post-footer">
+          
+          <div class="post-tags">
+              <a href="/tags/SDN/" rel="tag"><i class="fa fa-tag"></i> SDN</a>
+          </div>
 
         
   <div class="post-widgets">
@@ -250,11 +270,11 @@
 
         
     <div class="post-nav">
-      <div class="post-nav-item"></div>
       <div class="post-nav-item">
-    <a href="/2022/09/17/%E8%BD%AF%E5%B7%A5%E5%AE%9E%E8%B7%B5%E4%BD%9C%E4%B8%9A%E4%B8%80/" rel="next" title="2022秋软工实践个人作业一">
-      2022秋软工实践个人作业一 <i class="fa fa-chevron-right"></i>
+    <a href="/2022/09/17/SDN%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%BD%9C%E4%B8%9A/" rel="prev" title="软件定义网络第一次作业">
+      <i class="fa fa-chevron-left"></i> 软件定义网络第一次作业
     </a></div>
+      <div class="post-nav-item"></div>
     </div>
       </footer>
     
@@ -313,7 +333,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Quick-Start"><span class="nav-number">1.</span> <span class="nav-text">Quick Start</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Create-a-new-post"><span class="nav-number">1.1.</span> <span class="nav-text">Create a new post</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Run-server"><span class="nav-number">1.2.</span> <span class="nav-text">Run server</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Generate-static-files"><span class="nav-number">1.3.</span> <span class="nav-text">Generate static files</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Deploy-to-remote-sites"><span class="nav-number">1.4.</span> <span class="nav-text">Deploy to remote sites</span></a></li></ol></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#a-Mininet%E8%BF%90%E8%A1%8C%E7%BB%93%E6%9E%9C%E6%88%AA%E5%9B%BE"><span class="nav-number">1.</span> <span class="nav-text">a) Mininet运行结果截图</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#b-2%E7%9A%84%E6%89%A7%E8%A1%8C%E7%BB%93%E6%9E%9C%E6%88%AA%E5%9B%BE"><span class="nav-number">2.</span> <span class="nav-text">b) 2的执行结果截图</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#2-a-3%E5%8F%B0%E4%BA%A4%E6%8D%A2%E6%9C%BA%EF%BC%8C%E6%AF%8F%E4%B8%AA%E4%BA%A4%E6%8D%A2%E6%9C%BA%E8%BF%9E%E6%8E%A51%E5%8F%B0%E4%B8%BB%E6%9C%BA%EF%BC%8C3%E5%8F%B0%E4%BA%A4%E6%8D%A2%E6%9C%BA%E8%BF%9E%E6%8E%A5%E6%88%90%E4%B8%80%E6%9D%A1%E7%BA%BF"><span class="nav-number">2.1.</span> <span class="nav-text">2-a 3台交换机，每个交换机连接1台主机，3台交换机连接成一条线</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-b-3%E5%8F%B0%E4%B8%BB%E6%9C%BA%EF%BC%8C%E6%AF%8F%E4%B8%AA%E4%B8%BB%E6%9C%BA%E9%83%BD%E8%BF%9E%E6%8E%A5%E5%88%B0%E5%90%8C1%E5%8F%B0%E4%BA%A4%E6%8D%A2%E6%9C%BA%E4%B8%8A"><span class="nav-number">2.2.</span> <span class="nav-text">2-b 3台主机，每个主机都连接到同1台交换机上</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#c-3%E4%BF%AE%E6%94%B9%E8%BF%87%E7%9A%84-%E2%80%9C%E5%AD%A6%E5%8F%B7-py%E2%80%9D-%E4%BB%A3%E7%A0%81%E3%80%81Mininet%E8%BF%90%E8%A1%8C%E7%BB%93%E6%9E%9C"><span class="nav-number">3.</span> <span class="nav-text">c) 3修改过的 “学号.py” 代码、Mininet运行结果</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#3-a-%E4%BF%AE%E6%94%B9%E8%BF%87%E7%9A%84-%E2%80%9C%E5%AD%A6%E5%8F%B7-py%E2%80%9D-%E4%BB%A3%E7%A0%81"><span class="nav-number">3.1.</span> <span class="nav-text">3-a 修改过的 “学号.py” 代码</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-b-Mininet%E8%BF%90%E8%A1%8C%E7%BB%93%E6%9E%9C"><span class="nav-number">3.2.</span> <span class="nav-text">3-b Mininet运行结果</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%BF%9B%E9%98%B6"><span class="nav-number">4.</span> <span class="nav-text">进阶</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E2%80%9C%E5%AD%A6%E5%8F%B7-fattree-py%E2%80%9D-%E4%BB%A3%E7%A0%81"><span class="nav-number">4.1.</span> <span class="nav-text">“学号_fattree.py” 代码</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%89%A7%E8%A1%8C%E7%BB%93%E6%9E%9C"><span class="nav-number">4.2.</span> <span class="nav-text">执行结果</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%AA%E4%BA%BA%E6%80%BB%E7%BB%93"><span class="nav-number">5.</span> <span class="nav-text">个人总结</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
